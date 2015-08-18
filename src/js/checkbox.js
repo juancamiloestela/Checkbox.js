@@ -1,4 +1,4 @@
-/*! checkbox-js - v0.0.0 - 2015-08-17 *//*!
+/*! checkbox-js - v0.0.1 - 2015-08-17 *//*!
  * Checkbox.js
  * http://www.github.com/juancamiloestela/checkbox.js
  * MIT licensed
