@@ -1,6 +1,6 @@
 {
-  "name": "checkboxjs",
-  "version": "1.0.0",
+  "name": "checkbox-js",
+  "version": "0.0.1",
   "repository": "https://github.com/juancamiloestela/Checkbox.js",
   "dependencies": {},
   "devDependencies": {

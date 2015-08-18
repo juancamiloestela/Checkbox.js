@@ -1,6 +1,6 @@
 {
-	"name": "checkboxjs",
-	"version": "1.0.0",
+	"name": "checkbox-js",
+	"version": "0.0.1",
 	"homepage": "https://github.com/juancamiloestela/Checkbox.js",
 	"authors": [
 		
@@ -11,7 +11,7 @@
 	"description": "A minimalistic wrapper to skin checkbox and radio buttons",
 	"main": [
 		"dist/js/checkbox.js",
-		"dist/css/checkboxjs.css"
+		"dist/css/checkbox-js.css"
 	],
 	"keywords": [
 		"checkbox",
