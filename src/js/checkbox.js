@@ -1,4 +1,4 @@
-/*! checkbox-js - v0.0.1 - 2015-08-17 *//*!
+/*! checkbox-js - v0.0.1 - 2015-09-01 *//*!
  * Checkbox.js
  * http://www.github.com/juancamiloestela/checkbox.js
  * MIT licensed
@@ -135,6 +135,10 @@
 			}).prop({
 				'tabindex': '-1'
 			}));
+
+			$el.data('checkboxjs', {
+				refresh: refresh
+			});
 			
 			$checkbox.on('focus', {}, focusedCheckbox)
 					.on('blur', {}, blurredCheckbox)
@@ -174,7 +178,6 @@
 	 *
 	 * var myCheckbox = new Checkboxjs(document.getElementById('myCheckbox'), {})
 	 */
-
 
 })(jQuery);
 

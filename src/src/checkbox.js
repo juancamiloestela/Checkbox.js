@@ -135,6 +135,10 @@
 			}).prop({
 				'tabindex': '-1'
 			}));
+
+			$el.data('checkboxjs', {
+				refresh: refresh
+			});
 			
 			$checkbox.on('focus', {}, focusedCheckbox)
 					.on('blur', {}, blurredCheckbox)
@@ -174,7 +178,6 @@
 	 *
 	 * var myCheckbox = new Checkboxjs(document.getElementById('myCheckbox'), {})
 	 */
-
 
 })(jQuery);
 
